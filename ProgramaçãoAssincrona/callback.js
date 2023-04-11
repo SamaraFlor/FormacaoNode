@@ -16,7 +16,7 @@ function enviarEmail(corpo, para,callback){
 
 console.log("Inicio do envio de e-mail!")
 
-enviarEmail("Oi, seja bem vindo ao Guia","victor@udemy.com", (time, erro) => {
+enviarEmail("Oi, seja bem vindo ao Guia","samarafl2000@yahoo.com.br", (time, erro) => {
     if(erro == undefined){ // OK
         console.log("TUDO OK!");
         console.log(`Tempo: ${time}s`)
