@@ -57,3 +57,7 @@ var manipulador = new ManipulandoArquivos("arquivos.txt");
 manipulador.criarArquivos.Criar();
 
 //um objeto dentro de outro
+
+var usuarios = new GerenciadordeUsuarios();
+
+usuarios.Salvarlista("Samara Flor");
